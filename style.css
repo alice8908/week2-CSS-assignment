@@ -1,0 +1,142 @@
+
+/* Requirements
+Every element must be styled.
+Create style rules using class, id, and element selectors. */
+
+
+/* Style for all pages */
+/* This section includes title, current page with link, and image */
+h1, h2, div {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+body {
+    background-color:aliceblue;
+}
+
+h1 {
+    color: rgb(0, 242, 255);
+    text-shadow:cornflowerblue 2px 2px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: cornflowerblue;
+    text-shadow: rgb(0, 242, 255) 2px 2px;
+    text-align:center;
+}
+
+.page {
+    border: 3px solid aliceblue;
+    border-radius: 17px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.page:hover {
+    background-color: rgb(0, 242, 255);
+
+}
+
+#box-model {
+    padding: 5%;
+    border-style: double;
+    border-width: 7px;
+    border-color: aliceblue;
+    margin: 10px;
+    background-color: rgb(255, 193, 230);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Style for HOME page */
+div {
+    text-align: center;
+}
+
+.text {
+    font-size: large;
+    text-align: center;
+}
+
+#address {
+    color: violet;
+    font-size: small;
+    text-align: center;
+}
+
+
+
+/* Style for MENU page */
+ol{
+    float: inline-start;
+}
+
+ul{
+    float: inline-start;
+    margin-bottom: 10%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color:azure;
+}
+
+
+/* Style for CATERING page */
+.catering {
+    text-align: center;
+    font-size: 15px;
+}
+
+input[type=text]{
+    width: 1pppx;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #555;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=radio] {
+    accent-color: red;
+}
+
+input[type=submit] {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+input[type=submit]:hover{
+    background-color: cornflowerblue;
+}
+
