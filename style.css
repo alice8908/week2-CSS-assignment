@@ -7,7 +7,7 @@ Create style rules using class, id, and element selectors. */
 /* Style for all pages */
 /* This section includes title, current page with link, and image */
 h1, h2, div {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact;
 }
 
 p {
@@ -33,15 +33,15 @@ h2 {
     text-align:center;
 }
 
+div {
+    text-align: center;
+}
+
 .page {
     border: 3px solid aliceblue;
     border-radius: 17px;
     padding: 10px;
     margin: 10px;
-}
-
-div {
-    text-align: center;
 }
 
 .page:hover {
@@ -136,7 +136,12 @@ input[type=submit] {
     margin-right: auto;
   
 }
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
 input[type=submit]:hover{
     background-color: cornflowerblue;
 }
-
